@@ -92,28 +92,150 @@
         .secondSection {
             margin: auto;
             max-width: 80vw;
-            height: 80vh;
+            height: 100vh;
         }
 
-        .secondSection h1{
-           font-size: 1.9rem; 
+        .secondSection h1 {
+            font-size: 1.9rem;
         }
 
-       main hr {
+        main hr {
             border: 0;
             background-color: rgb(195, 145, 241);
             height: 0.2px;
             margin: 60px 84px;
         }
-        .text-gray{
+
+        .text-gray {
             color: gray;
         }
 
-        .secondSection box{
+        .secondSection .box {
             background: white;
-            width: 80vw;
+            width: 75vw;
             height: 2px;
             margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 200px;
+
+        }
+
+        .image-top {
+            width: 136px;
+            position: relative;
+            top: 2px;
+            left: -9px;
+            background-color: white;
+
+        }
+
+        .vertical-title {
+
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 20px;
+
+
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            width: 200px;
+            /* Adjust width to fit better */
+            max-height: 250px;
+            /* Set a maximum height */
+            overflow-y: auto;
+            /* Add vertical scrolling if content overflows */
+            font-size: 12px;
+            /* Adjusted font size */
+            line-height: 1.5;
+            /* Improved line height for readability */
+            padding: 10px;
+            /* Padding for spacing */
+            background-color: rgba(255, 255, 255, 0.1);
+            /* Subtle background color */
+            border-radius: 5px;
+            /* Rounded corners */
+            margin-top: 10px;
+            /* Margin to separate from the title */
+            color: #f0f0f0;
+            /* Light text color */
+        }
+
+        /* Adjust list style */
+        .vertical-desc ul {
+            list-style-type: disc;
+            /* Bullet points */
+            padding-left: 20px;
+            /* Space before list items */
+            margin: 0;
+            /* Remove margin to fit within container */
+
+        }
+
+        .vertical-desc li {
+            margin-bottom: 5px;
+            /* Space between list items */
+        }
+
+        .vertical {
+            /* gap: 20px; */
+
+        }
+
+        footer {
+            background-color: #0e0e11;
+            height: 233px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+        }
+
+        .footer ul {
+            list-style: none;
+            gap: 15px;
+
+
+
+        }
+
+        .footer-second ul li:hover {
+            color: #da1616;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        
+
+        .footer-second ul li {
+            margin-bottom: 15px;
+            color: #f0f0f0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .leftSection .buttons {
+            padding: 70px;
         }
     </style>
 </head>
@@ -140,6 +262,10 @@
                 <div>and I am a passionate</div>
                 <!-- <div> Web Developer</div> -->
                 <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
             </div>
             <div class="rightSection">
                 <img src="developer1.png" alt="">
@@ -150,9 +276,97 @@
         <section class="secondSection">
             <span class="text-gray">What i have done so far</span>
             <h1>Work Experience</h1>
-            <div class="box"></div>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="alstom logo.png" alt="">
+                    <div class="vertical-title">
+                        Alstom- Elrctromechanical Technician
+                        <div>(2021-2022)</div>
+                    </div>
+
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>Implemented troubleshooting protocols and effectively resolved hardware and software
+                                issues on
+                                manufacturing equipment, ensuring uninterrupted production processes.</li>
+                            <li>Proficiently utilized diagnostic tools and techniques to identify and rectify technical
+                                malfunctions,minimizing downtime and maximizing equipment uptime.</li>
+                            <li>Collaborated with cross-functional teams to develop and implement preventive maintenance
+                                schedules, resulting in a significant reduction in equipment failures and associated
+                                costs.</li>
+                            <li>Conducted comprehensive training sessions on equipment operation and maintenance best
+                                practices,enhancing team members' technical proficiency and productivity levels.</li>
+
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Sanmina.png" alt="">
+                    <div class="vertical-title">
+                        Sanmina- Elrctromechanical Technician
+                        <div>(2022-2023)</div>
+                    </div>
+
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>Resolved technical issues: Identified and efficiently resolved complex technical issues
+                                to minimize downtime andensure optimal system performance.</li>
+                            <li>Managed inventory and installations: Updated and maintained hardware and software
+                                inventory,conducting routine
+                                installations and upgrades for seamless operations.</li>
+                            <li>Utilized ticketing systems: Effectively managed equipment support and maintenance tasks
+                                using ticketing systems,
+                                streamlining issue tracking and resolution processes.</li>
+                            <li>Generated detailed test reports: Created comprehensive test reports using HTML and
+                                Excel,enhancing quality assurance and testing procedures</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://download.logo.wine/logo/Loblaw_Companies/Loblaw_Companies-Logo.wine.png" alt="">
+                    <div class="vertical-title">
+                        Loblaw- Frontend Supervisor
+                        <div>(2020-present)</div>
+                    </div>
+
+                    <div class="vertical-desc">
+                        <ul>
+                            <li>Implemented effective merchandise control measures, reducing inventory shrinkage by 15%
+                                within
+                                the first year of tenure.</li>
+                            <li>Conducted regular inspections of store facilities and equipment, identifying and
+                                addressing
+                                safety hazards proactively, resulting in a 20% decrease in workplace accidents.</li>
+                            <li>Managed cash handling procedures, resulting in a 10% reduction in cash discrepancies and
+                                improved financial accountability.</li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
         </section>
     </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Neelmani's Potfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Email- neelmanibahrdwaj001@gmail.com</li>
+
+                    <li>Linkedin- https://www.linkedin.com/in/neelmani-bhardwaj-b690a52b8/</li>
+                    <li>Github-https://github.com/bhar007-neel</li>
+                </ul>
+            </div>
+            <div class="footer-third"></div>
+        </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
