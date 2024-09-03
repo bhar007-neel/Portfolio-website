@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Neelmani Bhardwaj</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: rgb(18, 18, 62);
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .section-title {
+            background-color: rgb(18, 18, 62);
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .contact-details, .contact-form {
+            margin-bottom: 20px;
+        }
+        .contact-details p, .contact-form p {
+            margin-bottom: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: rgb(18, 18, 62);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: rgb(18, 18, 62);
+        }
+        .contact-form input[type="text"], .contact-form input[type="email"] {
+            height: 40px;
+        }
+        .contact-form textarea {
+            height: 150px;
+            resize: vertical;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Contact Me</h1>
+        </div>
+
+        <section class="contact-details">
+            <h2 class="section-title">Contact Information</h2>
+            <p><strong>Email:</strong> <a href="mailto:Neelmanibhardwaj001@gmail.com">Neelmanibhardwaj001@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+16138794980">613-879-4980</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/neelmani-bhardwaj-b690a52b8" target="_blank">linkedin.com/in/neelmani-bhardwaj-b690a52b8</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/bhar007-neel" target="_blank">github.com/bhar007-neel</a></p>
+        </section>
+
+        <section class="contact-form">
+            <h2 class="section-title">Send Me a Message</h2>
+            <form action="mailto:Neelmanibhardwaj001@gmail.com" method="post" enctype="text/plain">
+                <p><label for="name">Name:</label></p>
+                <input type="text" id="name" name="name" required>
+
+                <p><label for="email">Email:</label></p>
+                <input type="email" id="email" name="email" required>
+
+                <p><label for="message">Message:</label></p>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
