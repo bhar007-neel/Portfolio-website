@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+
+    font-size: 3rem;
+    margin: 70px 0;
+
+}
+
+.rightSection img {
+    width: 80%;
+
+
+}
+
+.purple {
+    color: rgb(155, 83, 223);
+
+}
+
+#element {
+    color: rgb(155, 83, 223);
+}
+
+.secondSection {
+    margin: auto;
+    max-width: 80vw;
+    height: 100vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(195, 145, 241);
+    height: 0.2px;
+    margin: 60px 84px;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondSection .box {
+    background: white;
+    width: 75vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 200px;
+
+}
+
+.image-top {
+    width: 136px;
+    position: relative;
+    top: 2px;
+    left: -9px;
+    background-color: white;
+
+}
+
+.vertical-title {
+
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 20px;
+
+
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    width: 200px;
+    /* Adjust width to fit better */
+    max-height: 250px;
+    /* Set a maximum height */
+    overflow-y: auto;
+    /* Add vertical scrolling if content overflows */
+    font-size: 12px;
+    /* Adjusted font size */
+    line-height: 1.5;
+    /* Improved line height for readability */
+    padding: 10px;
+    /* Padding for spacing */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Subtle background color */
+    border-radius: 5px;
+    /* Rounded corners */
+    margin-top: 10px;
+    /* Margin to separate from the title */
+    color: #f0f0f0;
+    /* Light text color */
+}
+
+/* Adjust list style */
+.vertical-desc ul {
+    list-style-type: disc;
+    /* Bullet points */
+    padding-left: 20px;
+    /* Space before list items */
+    margin: 0;
+    /* Remove margin to fit within container */
+
+}
+
+.vertical-desc li {
+    margin-bottom: 5px;
+    /* Space between list items */
+}
+
+.vertical {
+    /* gap: 20px; */
+
+}
+
+footer {
+    background-color: #0e0e11;
+    height: 233px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+}
+
+.footer ul {
+    list-style: none;
+    gap: 15px;
+
+
+
+}
+
+.footer-second ul li:hover {
+    color: #da1616;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.footer-second ul li {
+    margin-bottom: 15px;
+    color: #f0f0f0;
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftSection .buttons {
+    padding: 70px;
+}
